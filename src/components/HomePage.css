@@ -1,0 +1,231 @@
+/* styles.css */
+/* styles.css */
+.svg-backgroundnew {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0.15 !important;
+  z-index: 0 !important; /* Ensure it is behind all content */
+  pointer-events: none !important; /* Prevent interactions with the SVG */
+}
+
+.view-more-container {
+  display: flex;
+  justify-content: flex-end; /* Align to the right */
+  margin-top: 20px; /* Adjust margin to move closer to the Video Editing section */
+  margin-right: 10%; /* Adjust right margin to position it correctly */
+}
+
+.view-more-button {
+  background-color: #f1c40f;
+  color: #0b0d19;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-more-button:hover {
+  background-color: #d4ac0d;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+  }
+  
+  .homepage {
+    text-align: center;
+  }
+  
+  .header {
+    background: linear-gradient(135deg, #1c1c1c, #0f0f0f);
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #f5f5f5;
+  }
+  
+  .header nav {
+    margin-top: 10px;
+  }
+  
+  .header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+  }
+  
+  .header nav a:hover {
+    color: #0f80ff;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background: #151515;
+  }
+  
+  .service-card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .service-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .selected-works {
+    background: #0f0f0f;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .selected-works h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #f5f5f5;
+  }
+  
+  .selected-work {
+    display: inline-block;
+    margin: 0 15px;
+    width: 280px;
+  }
+  
+  .selected-work img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+
+  /* 2222222222222222222222222222222222222222222222222222222222 */
+
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+  }
+  
+  .header {
+    background: linear-gradient(135deg, #1c1c1c, #0f0f0f);
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header .logo a {
+    color: #0f80ff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav ul li {
+    margin: 0 10px;
+  }
+  
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav ul li a:hover {
+    color: #0f80ff;
+  }
+  
+  .start-project-btn {
+    background-color: #0f80ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-project-btn:hover {
+    background-color: #0066cc;
+  }
+  
+  .header-content {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .header-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+  }
+  
+  .subtext {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .search-bar input {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: 1px solid #0f80ff;
+    width: 60%;
+    max-width: 500px;
+    margin-bottom: 30px;
+    outline: none;
+  }
+  
+  .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #0f80ff;
+  }
+  
