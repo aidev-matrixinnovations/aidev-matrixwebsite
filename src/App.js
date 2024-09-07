@@ -11,7 +11,7 @@ import Project from './components/Project';
 import ContactUs from './components/ContactUs';
 import StrategyViewer from './components/StrategyViewer';
 import NoHeaderFooterLayout from './components/NoHeaderFooterLayout';
-
+/* chnages made by BINIT KUMAR :TSTING PUSH MAIN */
 const App = () => {
   return (
     <div className="app">
