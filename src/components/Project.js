@@ -94,7 +94,7 @@ const Project = () => {
             <option value="">Select a domain</option>
             <option value="Technology">Technology</option>
             <option value="Marketing">Marketing</option>
-            <option value="Video Editing">Video Editing</option>
+            <option value="Video Editing">Editing</option>
           </select>
         </div>
         <div className="form-group">

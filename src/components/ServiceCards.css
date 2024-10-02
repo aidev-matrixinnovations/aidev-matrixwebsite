@@ -1,15 +1,8 @@
- .services {
+.services {
   background-color: #0b0d19;
   color: white;
   padding: 50px 0;
 }
-
-section.services {
-  background-color: #0b0d19;
-  color: white;
-  padding: 50px 0;
-}
-
 
 .container {
   width: 80%;
@@ -25,6 +18,8 @@ section.services {
 .service-cards {
   display: flex;
   justify-content: space-around;
+  align-items: stretch; /* Ensure all cards have the same height */
+  gap: 20px; /* Add gap between the cards */
   padding: 25px !important;
 }
 
@@ -33,6 +28,11 @@ section.services {
   text-align: center !important;
   border-radius: 8px !important;
   width: 30% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1; /* Make all cards take up equal space */
+  padding: 20px; /* Add padding inside the card */
 }
 
 .service-card p {
@@ -45,8 +45,52 @@ section.services {
   margin-bottom: 5px;
 }
 
-
 .service-card a {
-  margin-bottom: 10px;
+  margin-top: 20px; /* Add margin to separate the link from other content */
   color: #aaa;
+  text-decoration: none; /* Remove underline */
 }
+
+.work-image-container {
+  width: 100%;
+  height: 550px; /* Fixed height for the image container */
+  overflow: hidden; /* Hide overflow */
+  position: relative;
+  margin-bottom: 20px; /* Add margin to separate the image from the link */
+}
+
+.work-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 2s ease-in-out;
+}
+
+/* New styles for the list */
+.service-card ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 20px 0 0 0; /* Add margin to the top of the list */
+  text-align: left; /* Align text to the left */
+}
+
+.service-card li {
+  background-color: #2a2d45; /* Background color for list items */
+  color: #fff; /* Text color for list items */
+  padding: 10px; /* Padding inside list items */
+  margin-bottom: 10px; /* Space between list items */
+  border-radius: 5px; /* Rounded corners for list items */
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Center items vertically */
+}
+
+.service-card li::before {
+  content: '✔'; /* Add a checkmark before each list item */
+  color: #4caf50; /* Color of the checkmark */
+  margin-right: 10px; /* Space between checkmark and text */
+}
+
+/* Add margin to the bottom of the list to separate it from the slider dots */

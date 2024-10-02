@@ -8,6 +8,17 @@
     width: 80%;
     margin: 0 auto;
   }
+
+  .logo-image {
+    height: 50px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add space between the image and the text */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for zoom effect */
+  }
+  
+  .logo-image:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+  }
   
   .header-top {
     display: flex;

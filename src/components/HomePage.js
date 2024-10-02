@@ -24,16 +24,18 @@ const HomePage = () => {
         <div className="container">
           <div className="header-content">
             <h1>AI DEV MATRIX</h1>
-            <h3>Innovating Tomorrow, Today: Where Ideas Become Reality</h3>
+            <h3>Innovating Today, Tomorrow : Where Ideas Become Reality</h3>
             <div className="search-bar">
               <input type="text" placeholder="Website development..." />
             </div>
             <div className="social-links">
-              <a href="#linkedin"><FaLinkedin size={35} /></a>
-              <a href="#instagram"><FaInstagram size={35} /></a>
-              <a href="#twitter"><FaTwitter size={35} /></a>
-              <a href="#facebook"><FaFacebook size={35} /></a>
+              <a href="https://www.linkedin.com/in/ai-dev-matrix-479393310/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={35} /></a>
+              <a href="https://www.instagram.com/aidevmatrix/" target="_blank" rel="noopener noreferrer"><FaInstagram size={35} /></a>
+              <a href="https://x.com/matrix_devai" target="_blank" rel="noopener noreferrer"><FaTwitter size={35} /></a>
+              <a href="https://www.facebook.com/profile.php?id=61566433406253" target="_blank" rel="noopener noreferrer"><FaFacebook size={35} /></a>
             </div>
+
+            
           </div>
         </div>
       </header>
