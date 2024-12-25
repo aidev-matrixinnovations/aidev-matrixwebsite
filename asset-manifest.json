@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/aidev-matrixwebsite/static/css/main.de06bfb5.css",
-    "main.js": "/aidev-matrixwebsite/static/js/main.d07ae0e3.js",
-    "static/js/453.b0f1ad2a.chunk.js": "/aidev-matrixwebsite/static/js/453.b0f1ad2a.chunk.js",
+    "main.css": "/aidev-matrixwebsite/static/css/main.bb92705b.css",
+    "main.js": "/aidev-matrixwebsite/static/js/main.1d4fd49e.js",
     "static/media/Product Details.png": "/aidev-matrixwebsite/static/media/Product Details.082794b62b67fed65f49.png",
     "static/media/2_1.png": "/aidev-matrixwebsite/static/media/2_1.eec7f50f2bf1f2b46da0.png",
     "static/media/3_1.png": "/aidev-matrixwebsite/static/media/3_1.239c05cd8ae3c64f657d.png",
@@ -26,12 +25,11 @@
     "static/media/slick.ttf": "/aidev-matrixwebsite/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/aidev-matrixwebsite/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/aidev-matrixwebsite/index.html",
-    "main.de06bfb5.css.map": "/aidev-matrixwebsite/static/css/main.de06bfb5.css.map",
-    "main.d07ae0e3.js.map": "/aidev-matrixwebsite/static/js/main.d07ae0e3.js.map",
-    "453.b0f1ad2a.chunk.js.map": "/aidev-matrixwebsite/static/js/453.b0f1ad2a.chunk.js.map"
+    "main.bb92705b.css.map": "/aidev-matrixwebsite/static/css/main.bb92705b.css.map",
+    "main.1d4fd49e.js.map": "/aidev-matrixwebsite/static/js/main.1d4fd49e.js.map"
   },
   "entrypoints": [
-    "static/css/main.de06bfb5.css",
-    "static/js/main.d07ae0e3.js"
+    "static/css/main.bb92705b.css",
+    "static/js/main.1d4fd49e.js"
   ]
 }
