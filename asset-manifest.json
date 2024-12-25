@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/aidev-matrixwebsite/static/css/main.de06bfb5.css",
+    "main.js": "/aidev-matrixwebsite/static/js/main.d07ae0e3.js",
+    "static/js/453.b0f1ad2a.chunk.js": "/aidev-matrixwebsite/static/js/453.b0f1ad2a.chunk.js",
+    "static/media/Product Details.png": "/aidev-matrixwebsite/static/media/Product Details.082794b62b67fed65f49.png",
+    "static/media/2_1.png": "/aidev-matrixwebsite/static/media/2_1.eec7f50f2bf1f2b46da0.png",
+    "static/media/3_1.png": "/aidev-matrixwebsite/static/media/3_1.239c05cd8ae3c64f657d.png",
+    "static/media/Landing.png": "/aidev-matrixwebsite/static/media/Landing.711f5be2a4409cc2b16f.png",
+    "static/media/1_1.png": "/aidev-matrixwebsite/static/media/1_1.8d438d7b704f74bbd2ef.png",
+    "static/media/Search Results.png": "/aidev-matrixwebsite/static/media/Search Results.1ae57d055a49782d6701.png",
+    "static/media/Home.png": "/aidev-matrixwebsite/static/media/Home.41e399fba2b33b6a04c3.png",
+    "static/media/web_figma.png": "/aidev-matrixwebsite/static/media/web_figma.b52c673c3b5810015f15.png",
+    "static/media/Crop_Disease_Diagnosis_Tool.png": "/aidev-matrixwebsite/static/media/Crop_Disease_Diagnosis_Tool.c79b8b7062962e5e4deb.png",
+    "static/media/mobile_figma.png": "/aidev-matrixwebsite/static/media/mobile_figma.5b4894491afaa652371b.png",
+    "static/media/mobile_landing.png": "/aidev-matrixwebsite/static/media/mobile_landing.a99de5e80849b50d0b55.png",
+    "static/media/Cart.png": "/aidev-matrixwebsite/static/media/Cart.f7cb4d797a9c5f062595.png",
+    "static/media/Chat.png": "/aidev-matrixwebsite/static/media/Chat.0a0d47477008241ee649.png",
+    "static/media/Notifications.png": "/aidev-matrixwebsite/static/media/Notifications.2e57ba2fa47ac8ff484c.png",
+    "static/media/Community_Forum.png": "/aidev-matrixwebsite/static/media/Community_Forum.50f2f216df7596079ada.png",
+    "static/media/Logo.jpeg": "/aidev-matrixwebsite/static/media/Logo.5ca6b78e3550d7df1f24.jpeg",
+    "static/media/Contact Us.png": "/aidev-matrixwebsite/static/media/Contact Us.fe0ce6eede64c28f4014.png",
+    "static/media/Search.png": "/aidev-matrixwebsite/static/media/Search.b7930b9cbf5e24468c8d.png",
+    "static/media/slick.svg": "/aidev-matrixwebsite/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/aidev-matrixwebsite/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/aidev-matrixwebsite/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/aidev-matrixwebsite/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/aidev-matrixwebsite/index.html",
+    "main.de06bfb5.css.map": "/aidev-matrixwebsite/static/css/main.de06bfb5.css.map",
+    "main.d07ae0e3.js.map": "/aidev-matrixwebsite/static/js/main.d07ae0e3.js.map",
+    "453.b0f1ad2a.chunk.js.map": "/aidev-matrixwebsite/static/js/453.b0f1ad2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de06bfb5.css",
+    "static/js/main.d07ae0e3.js"
+  ]
+}
