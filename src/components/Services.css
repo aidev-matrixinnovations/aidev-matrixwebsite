@@ -1,0 +1,215 @@
+.services {
+    background-color: #0b0d19;
+    color: white;
+    padding: 50px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 42px; /* Increased font size */
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.services-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.services-card {
+    background-color: #1a1d33;
+    padding: 30px;
+    text-align: left;
+    border-radius: 8px;
+    width: 30%;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.services-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.services-card h3 {
+    font-size: 28px; /* Increased font size */
+    margin-bottom: 20px;
+    color: #f1c40f;
+    border-bottom: 2px solid #f1c40f;
+    padding-bottom: 10px;
+}
+
+.services-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-card li {
+    margin-bottom: 15px;
+    font-size: 20px; /* Increased font size */
+}
+
+.services-card li ul {
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.services-card li ul li {
+    font-size: 18px; /* Increased font size */
+    color: #b0b0b0;
+}
+
+.services-card li ul li ul {
+    margin-top: 5px;
+    margin-left: 20px;
+    list-style-type: none; /* Different bullet points for sub-subcategories */
+}
+
+.services-card li ul li ul li {
+    font-size: 16px; /* Increased font size */
+    color: #d0d0d0;
+}
+
+.services-card li ul li ul li {
+    font-size: 16px; /* Increased font size */
+    color: #d0d0d0;
+    position: relative;
+    padding-left: 20px; /* Space for the custom bullet */
+}
+
+.services-card li ul li ul li::before {
+    content: '➤'; /* Custom arrow bullet */
+    position: absolute;
+    left: 0;
+    color: #f1c40f; /* Color for the custom bullet */
+    font-size: 16px; /* Match the font size of the text */
+}
+
+.strategy-section {
+    background-color: #0b0d19;
+}
+.strategy {
+    
+    background-color: #434663;
+    padding: 30px;
+    text-align: left;
+    border-radius: 8px;
+    margin: 0 auto 20px auto; /* Center the box and add margin at the bottom */
+    width: 85%; /* Make the box smaller */
+    max-width: 1500px; /* Limit the maximum width */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.strategy:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.strategy h4 {
+    font-size: 28px; /* Same as services card heading */
+    margin-bottom: 20px;
+    color: #f1c40f;
+    border-bottom: 2px solid #f1c40f;
+    padding-bottom: 10px;
+}
+
+.strategy-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.strategy-text {
+    flex: 1;
+}
+
+.strategy p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #b0b0b0;
+    margin-bottom: 20px;
+}
+
+.strategy ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.strategy li {
+    margin-bottom: 15px;
+    font-size: 20px; /* Same as services card list items */
+    color: #b0b0b0;
+}
+
+.strategy img {
+    width: 40%; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 8px;
+}
+
+.download-button, .view-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.download-button:hover, .view-button:hover {
+    background-color: #0056b3;
+}
+
+.call-to-action {
+    background-color: #0b0d19;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.call-to-action h3 {
+    font-size: 36px; /* Slightly smaller than the main heading */
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.call-to-action p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #b0b0b0;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+

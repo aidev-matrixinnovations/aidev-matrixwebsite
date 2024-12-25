@@ -1,0 +1,55 @@
+.selected-works {
+  background-color: #0b0d19;
+    color: white;
+    padding: 50px 0;
+  }
+  
+  section.selected-works {
+    background-color: #0b0d19;
+    color: white;
+    padding: 50px 0;
+  }
+  
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .selected-works h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .selected-works p {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #aaa;
+  }
+  
+  .work-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+  .work-card {
+    background-color: #1a1d33;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    width: 30%;
+  }
+  
+  .work-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .work-card a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
